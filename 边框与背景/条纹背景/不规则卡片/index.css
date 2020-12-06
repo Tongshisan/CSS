@@ -1,0 +1,14 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+}
+
+.coupon-card {
+    width: 200px;
+    height: 120px;
+    background-image: radial-gradient(circle at 100px -8px, transparent 20px, #b3a078 21px);
+}
