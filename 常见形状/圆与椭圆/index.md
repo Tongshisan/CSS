@@ -76,3 +76,15 @@
   + `border-bottom-right-radius: 20px 30px`
 
 + 
+
+
+
+我的理解:
+
+`border-top-left-radius: 40px 40px`
+
+就是以左上角为直角坐标系原点, 以 `(40px, 40px)` 为圆心, 用平滑的曲线连接 `(40px, 0)` 和 `(0, 40px)` 两个点
+
+`border-top-right-radius: 40px 20px`
+
+就是以右上角为直角坐标系原点, (向左下为`x`, `y` 正方向), 以 `(40px, 20px)` 为椭圆心画椭圆
