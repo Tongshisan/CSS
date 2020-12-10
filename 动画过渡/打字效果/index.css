@@ -10,12 +10,19 @@ main div {
     overflow: hidden;
     width: 9ch;
     height: 40px;
+    border-right: 1px solid transparent;
     font: bold 200% Consolas, Monaco, monospace; 
-    animation: test 10s steps(9);
+    animation: test 9s steps(9), test1 1s steps(1) infinite;
 }
 
 @keyframes test {
     from {
         width: 0;
+    }
+}
+
+@keyframes test1 {
+    50% {
+        border-right-color: currentColor;
     }
 }
