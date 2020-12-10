@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+}
+
+main div {
+    overflow: hidden;
+    width: 9ch;
+    height: 40px;
+    font: bold 200% Consolas, Monaco, monospace; 
+    animation: test 10s steps(9);
+}
+
+@keyframes test {
+    from {
+        width: 0;
+    }
+}
